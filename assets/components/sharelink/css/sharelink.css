@@ -1,0 +1,68 @@
+.share ul{
+    overflow:hidden;
+}
+.share li{
+	float:left;
+	width:32px;
+	height:32px;
+	margin-right:10px;
+	background-image:url(../img/bg-share-icons.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	text-indent:-345em;
+	overflow:hidden;
+}
+.share li.twitter{
+	background-position:0 -32px;
+}
+.share li.twitter:hover{
+	background-position:0 0;
+}
+.share li.facebook{
+	background-position:-32px -32px;
+}
+.share li.facebook:hover{
+	background-position:-32px 0;
+}
+.share li.google{
+	background-position:-64px -32px;
+}
+.share li.google:hover{
+	background-position:-64px 0;
+}
+.share li.pinterest{
+	background-position:-96px -32px;
+}
+.share li.pinterest:hover{
+	background-position:-96px 0;
+}
+.share li.rss{
+    background-position:-128px -32px;
+}
+.share li.rss:hover{
+	background-position:-128px 0;
+}
+.share li.vk{
+    background-position:-160px -32px;
+}
+.share li.vk:hover{
+    background-position:-160px 0;
+}
+.share li.odnoklassniki{
+    background-position:-192px -32px;
+}
+.share li.odnoklassniki:hover{
+    background-position:-192px 0;
+}
+.share li.mailru{
+    background-position:-224px -32px;
+}
+.share li.mailru:hover{
+    background-position:-224px 0;
+}
+
+.share li span,
+.share li a{
+	display:block;
+	height:32px;
+}
