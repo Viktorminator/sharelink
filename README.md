@@ -1,4 +1,3 @@
-
 ShareLink
 =========
 **MODX Revolution extra Sharelink** allows visitors of your site to share link to the page for different social services: Twitter, FB, G+, Pininterest, Vkontakte, Odnoklassniki, Mail.ru
@@ -23,10 +22,9 @@ Example:
 
 ```html
     <link href="[[++assets_url]]components/sharelink/css/sharelink.css" rel="stylesheet">
-    <script src="assets/components/sharelink/js/sharelink.js"></script>
+    <script src="[[++assets_url]]components/sharelink/js/sharelink.js"></script>
     <script>
         $(document).ready(function () {
-    
             $('.share li span.popup').popupWindow({
                 centerBrowser: 1
             });
