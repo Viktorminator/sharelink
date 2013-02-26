@@ -32,7 +32,9 @@ Example:
     </script>
     [[$sharelink]]
 ```
-
+Download:
+---------
+<a href="https://www.dropbox.com/s/48wv62lcwzmprm1/sharelink-1.0.0-pl.transport.zip" title="Dropbox link - Transport Package Sharelink">Transport Package Sharelink 1.0.0</a>
 Author:
 -------
 
